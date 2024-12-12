@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal page</title>
+    <link rel="stylesheet" href="css/user.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Personal Center</h1>
+        </header>
+        
+        <aside class="user-profile">
+            <img src="img/user.jpg" alt="用户头像" class="user-avatar">
+            <p id="userEmail">mailbox</p>
+        </aside>
+        
+        <section class="user-stats">
+            <h3>Basic Information</h3>
+            <ul style="list-style: none;padding: 0;">
+                <li style="padding: 10px;border-bottom: 1px solid #eee;">mailbox：<span id="displayEmail"></span></li>
+                <li style="padding: 10px;border-bottom: 1px solid #eee;">Number of days of study：1</li>
+            </ul>
+            <button onclick="location.href='home.html'" class="back">Return to the top page</button>
+        </section>
+    </div>
+    <script src="js/user.js"></script>
+</body>
+</html>
